@@ -93,3 +93,91 @@ body {
     transform: translate(0px, 10px, );
     transform: translateX(-10px);
 }
+
+#paraS {
+    width: 400px;
+    height: 200px;
+    text-align: justify;
+    text-align: center;
+    position: absolute;
+    top: 130px;
+    right: 510px;
+    font-family: "Acme", serif;
+}
+
+
+.King2 {
+    width: 310px;
+    height: 360px;
+    position: absolute;
+    border: 3px solid black;
+    right: 70px;
+    bottom: 200px;
+    transition: width 1s, height 1s, box-shadow 0.5s ease, transform 1s ease;
+}
+
+.King2:hover {
+    width: 330px;
+    height: 380px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+    transform: translate(0px, 10px, );
+    transform: translateX(-10px);
+}
+
+#paraK {
+    width: 400px;
+    height: 200px;
+    text-align: justify;
+    text-align: center;
+    position: absolute;
+    top: 130px;
+    right: 20px;
+    font-family: "Acme", serif;
+}
+
+.Demon {
+    width: 310px;
+    height: 360px;
+    position: absolute;
+    border: 3px solid black;
+    left: 70px;
+    bottom: 200px;
+    transition: width 1s, height 1s, box-shadow 0.5s ease, transform 1s ease;
+}
+
+.Demon:hover {
+    width: 330px;
+    height: 380px;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.8);
+    transform: translate(0px, 10px, );
+    transform: translateX(-10px);
+}
+
+#paraD {
+    width: 400px;
+    height: 200px;
+    text-align: justify;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-family: "Acme", serif;
+}
+
+#heads {
+    font-family: "Acme", serif;
+    position: absolute;
+    left: 570px;
+    top: 10px;
+}
+
+#bottom {
+    position: absolute;
+    left: 570px;
+    bottom: 30px;
+    font-family: "Acme", serif;
+}
+
+#har {
+    text-align: center;
+}

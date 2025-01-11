@@ -42,7 +42,7 @@ body {
     position: absolute;
     border: 3px solid black;
     left: 900px;
-    bottom: 50px;
+    bottom: 80px;
     height: 560px;
     transition: width 2s, height 2s, box-shadow 0.5s ease, transform 0.5s ease;
 }
