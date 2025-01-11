@@ -157,3 +157,162 @@
     }
     
 }
+
+@media (min-width: 1024px) {
+
+    body {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(236, 229, 229, 1));
+        background-size: cover;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    #titles {
+        font-family: "Acme", serif;
+        font-size: 60px;
+        position: absolute;
+        color: rgb(0, 0, 0);
+        top: 200px;
+        left: 160px
+    }
+    
+    #words {
+        font-family: "Acme", serif;
+        font-size: 20px;
+        position: absolute;
+        color: rgb(0, 0, 0);
+        top: 300px;
+        left: 80px
+    }
+    
+    #webname {
+        font-family: "Acme", serif;
+        font-size: 15px;
+        position: absolute;
+        color: rgb(0, 0, 0);
+        top: 5px;
+        left: 25px;
+        border: 2px solid black;
+        padding: 16px 12px;
+    
+    }
+    
+    .king {
+        width: 450px;
+        position: absolute;
+        border: 3px solid black;
+        left: 900px;
+        bottom: 80px;
+        height: 560px;
+        transition: width 2s, height 2s, box-shadow 0.5s ease, transform 0.5s ease;
+    }
+    
+    .king:hover {
+        width: 460px;
+        height: 570px;
+        box-shadow: 0 0 20px rgba(255, 13, 0, 0.8);
+        transform: translate(0px, 10px);
+    }
+    
+    .gBtn {
+        position: absolute;
+        font-family: "Acme", serif;
+        background-color: white;
+        color: rgba(255, 13, 0, 0.8);
+        border: 2px solid rgba(255, 13, 0, 0.8);
+        padding: 16px 12px;
+        border-radius: 8px;
+        transition: all 0.5s;
+        top: 15px;
+        right: 80px;
+    }
+    
+    .gBtn:hover {
+        background-color: rgba(255, 13, 0, 0.8);
+        color: white;
+        border: 2px solid white
+    }
+    
+    .aBtn {
+        position: absolute;
+        font-family: "Acme", serif;
+        background-color: white;
+        color: rgba(11, 162, 38, 0.8);
+        border: 2px solid rgba(11, 162, 38, 0.8);
+        padding: 16px 12px;
+        border-radius: 8px;
+        transition: all 0.5s;
+        top: 15px;
+        right: 255px;
+    }
+    
+    .aBtn:hover {
+        background-color: rgba(11, 162, 38, 0.8);
+        color: white;
+        border: 2px solid white
+    }
+    
+    .hBtn {
+        position: absolute;
+        font-family: "Acme", serif;
+        background-color: white;
+        color: rgba(0, 89, 255, 0.8);
+        border: 2px solid rgba(0, 89, 255, 0.8);
+        padding: 16px 12px;
+        border-radius: 8px;
+        transition: all 0.5s;
+        top: 15px;
+        right: 170px;
+    }
+    
+    .hBtn:hover {
+        background-color: rgba(0, 89, 255, 0.8);
+        color: white;
+        border: 2px solid white
+    }
+    
+    .g2Btn {
+        position: absolute;
+        font-family: "Acme", serif;
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+        padding: 16px 12px;
+        border-radius: 8px;
+        transition: all 0.5s;
+        top: 365px;
+        left: 330px;
+    }
+    
+    .g2Btn:hover {
+        background-color: black;
+        color: white;
+        border: 2px solid white
+    }
+    
+    #cTag {
+        font-family: "Acme", serif;
+        position: absolute;
+        bottom: 45px;
+        left: 30px;
+    }
+    
+    .goat {
+        position: absolute;
+        height: 60px;
+        width: 50px;
+        bottom: 25px;
+        left: 190px;
+        border: 1px solid black;
+        transition: width 2s, height 2s, box-shadow 0.5s ease, transform 2s ease;
+    }
+    
+    .goat:hover {
+        height: 70px;
+        width: 60px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+        transform: translate(0px, 5px);
+    }
+    
+
+}
